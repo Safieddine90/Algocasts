@@ -11,7 +11,7 @@
 function chunk(array, size) {
 
     const chunkArray = [];
-    idx = 0;
+    let idx = 0;
     const arraySize = array.length;
 
     while (idx < arraySize){

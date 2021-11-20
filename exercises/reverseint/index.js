@@ -10,7 +10,7 @@
 
 const reverse = require("../reversestring");
 function reverseInt(n) {
-    negator = 1;
+    let negator = 1;
     if (n<0){
         negator = -1
     }

@@ -9,7 +9,7 @@
 function reverse(str) {
     const strLen = str.length;
     const revStr = [strLen];
-    for (i = 0; i<strLen; i++) {
+    for (let i = 0; i<strLen; i++) {
         revStr[strLen - i - 1] = str[i];
     }
     return revStr.join("").toString();
